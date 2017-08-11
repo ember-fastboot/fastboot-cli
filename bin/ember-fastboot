@@ -35,7 +35,8 @@ var notifier = {
 
 var server = new FastBootAppServer({
   distPath: distPath,
-  notifier: notifier
+  notifier: notifier,
+  gzip: true
 });
 
 console.log('Booting Ember app...');
